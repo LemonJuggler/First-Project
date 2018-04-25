@@ -1,2 +1,2 @@
 # First-Project
-A lightweight JavaScript collaboration
+A top-down shooter written in JavaScript.
