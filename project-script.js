@@ -1,11 +1,17 @@
 // declarations will go here
 
+var canvas;
+var canvasContext;
 
 // MAIN LOOP ** MAIN LOOP ** MAIN LOOP ** MAIN LOOP
 // V   V   V   V   V   V   V   V   V   V   V   V   V   V   V   V   V   V
 
 // wait until all of the browser elements load, then run this
 window.onload = function(){ 
+
+	// attach canvas to variables
+	canvas = document.getElementById('gameCanvas');
+	canvasContext = canvas.getContext('2d');
 
 	// run the main loop
 	mainLoop();
