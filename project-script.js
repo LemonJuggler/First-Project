@@ -1,5 +1,8 @@
 // declarations will go here
 
+const CANVAS_BACKGROUND_COLOR = 'black';
+const SHIP_COLOR = 'red';
+
 var canvas;
 var canvasContext;
 
